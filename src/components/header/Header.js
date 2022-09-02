@@ -36,7 +36,6 @@ const GreenSwitch = styled(Switch)(({ theme }) => ({
   }));
   
   const label = { inputProps: { 'aria-label': 'Color switch demo' } };
-  
 
 export default function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
